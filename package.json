@@ -1,0 +1,11 @@
+{
+  "name": "gitrewind",
+  "version": "0.1.0",
+  "description": "A time machine for your git mistakes. Recover lost commits and branches in one command.",
+  "bin": { "gitrewind": "bin/gitrewind.js" },
+  "files": ["bin", "src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["git", "cli", "developer-tools", "recovery", "reflog", "productivity"],
+  "license": "MIT"
+}
